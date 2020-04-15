@@ -1,6 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "18.0.0",
+  "name": "ckeditormarkdownmention",
+  "version": "18.5.3",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -67,10 +67,12 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": {
+    "url": "https://github.com/ckeditor/ckeditor5/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "git+https://github.com/ckeditor/ckeditor5-build-classic.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -94,5 +96,12 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-mention": "^18.0.0",
+    "ckeditormarkdownlinebreak": "21.0.3"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
