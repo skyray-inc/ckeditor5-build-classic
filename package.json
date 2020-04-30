@@ -1,6 +1,6 @@
 {
   "name": "ckeditormarkdownmention",
-  "version": "18.5.3",
+  "version": "18.6.7",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -25,40 +25,40 @@
     "build"
   ],
   "devDependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "^18.0.0",
-    "@ckeditor/ckeditor5-autoformat": "^18.0.0",
-    "@ckeditor/ckeditor5-basic-styles": "^18.0.0",
-    "@ckeditor/ckeditor5-block-quote": "^18.0.0",
-    "@ckeditor/ckeditor5-ckfinder": "^18.0.0",
-    "@ckeditor/ckeditor5-core": "^18.0.0",
+    "@ckeditor/ckeditor5-adapter-ckfinder": "18.0.0",
+    "@ckeditor/ckeditor5-autoformat": "18.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "18.0.0",
+    "@ckeditor/ckeditor5-block-quote": "18.0.0",
+    "@ckeditor/ckeditor5-ckfinder": "18.0.0",
+    "@ckeditor/ckeditor5-core": "18.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^18.0.0",
-    "@ckeditor/ckeditor5-editor-classic": "^18.0.0",
-    "@ckeditor/ckeditor5-essentials": "^18.0.0",
-    "@ckeditor/ckeditor5-heading": "^18.0.0",
-    "@ckeditor/ckeditor5-image": "^18.0.0",
-    "@ckeditor/ckeditor5-indent": "^18.0.0",
-    "@ckeditor/ckeditor5-link": "^18.0.0",
-    "@ckeditor/ckeditor5-list": "^18.0.0",
-    "@ckeditor/ckeditor5-media-embed": "^18.0.0",
-    "@ckeditor/ckeditor5-paragraph": "^18.0.0",
-    "@ckeditor/ckeditor5-paste-from-office": "^18.0.0",
-    "@ckeditor/ckeditor5-table": "^18.0.0",
-    "@ckeditor/ckeditor5-typing": "^18.0.0",
-    "@ckeditor/ckeditor5-theme-lark": "^18.0.0",
+    "@ckeditor/ckeditor5-easy-image": "18.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "18.0.0",
+    "@ckeditor/ckeditor5-essentials": "18.0.0",
+    "@ckeditor/ckeditor5-heading": "18.0.0",
+    "@ckeditor/ckeditor5-image": "18.0.0",
+    "@ckeditor/ckeditor5-indent": "18.0.0",
+    "@ckeditor/ckeditor5-link": "18.0.0",
+    "@ckeditor/ckeditor5-list": "18.0.0",
+    "@ckeditor/ckeditor5-media-embed": "18.0.0",
+    "@ckeditor/ckeditor5-paragraph": "18.0.0",
+    "@ckeditor/ckeditor5-paste-from-office": "18.0.0",
+    "@ckeditor/ckeditor5-table": "18.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "18.0.0",
+    "@ckeditor/ckeditor5-typing": "18.0.0",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
     "husky": "^1.3.1",
     "lint-staged": "^7.0.0",
-    "stylelint": "^11.1.1",
-    "stylelint-config-ckeditor5": "^1.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.1.0",
     "style-loader": "^1.0.0",
+    "stylelint": "^11.1.1",
+    "stylelint-config-ckeditor5": "^1.0.0",
     "terser-webpack-plugin": "^2.2.1",
     "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "3.3.6"
   },
   "engines": {
     "node": ">=8.0.0",
@@ -98,8 +98,8 @@
     }
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-mention": "^18.0.0",
-    "ckeditormarkdownlinebreak": "21.0.3"
+    "@ckeditor/ckeditor5-mention": "18.0.0",
+    "ckeditormarkdownlinebreak": "21.0.4"
   },
   "directories": {
     "test": "tests"
